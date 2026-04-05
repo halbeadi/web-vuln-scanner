@@ -1,5 +1,5 @@
 {
-  "target": "http://httpbin.org",
+  "target": "http://localhost:8080",
   "findings": [
     {
       "type": "Missing Security Header",
@@ -34,7 +34,17 @@
     {
       "type": "Server Header Leaking Info",
       "severity": "LOW",
-      "detail": "Server header exposes: gunicorn/19.9.0"
+      "detail": "Server header exposes: Apache/2.4.25 (Debian)"
+    },
+    {
+      "type": "Sensitive File/Path Exposed",
+      "severity": "MEDIUM",
+      "detail": "http://localhost:8080/server-status returned HTTP 403"
+    },
+    {
+      "type": "Sensitive File/Path Exposed",
+      "severity": "MEDIUM",
+      "detail": "http://localhost:8080/.htaccess returned HTTP 403"
     }
   ]
 }
