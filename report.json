@@ -1,0 +1,40 @@
+{
+  "target": "http://httpbin.org",
+  "findings": [
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "Strict-Transport-Security \u2014 Protects against protocol downgrade attacks"
+    },
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "Content-Security-Policy \u2014 Prevents XSS and data injection attacks"
+    },
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "X-Frame-Options \u2014 Prevents clickjacking"
+    },
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "X-Content-Type-Options \u2014 Prevents MIME sniffing"
+    },
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "Referrer-Policy \u2014 Controls referrer information"
+    },
+    {
+      "type": "Missing Security Header",
+      "severity": "MEDIUM",
+      "detail": "Permissions-Policy \u2014 Controls browser features"
+    },
+    {
+      "type": "Server Header Leaking Info",
+      "severity": "LOW",
+      "detail": "Server header exposes: gunicorn/19.9.0"
+    }
+  ]
+}
