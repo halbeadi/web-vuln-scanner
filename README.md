@@ -110,6 +110,6 @@ This tool is for **educational purposes only**. Only scan web applications you o
 
 ## 👤 Author
 
-**Adi** — Cloud & DevSecOps Engineer  
+**Aditya Halbe** — Cloud & DevSecOps Engineer  
 CEH Certified  
 [GitHub](https://github.com/halbeadi) · [LinkedIn](https://linkedin.com/in/halbeadi)
