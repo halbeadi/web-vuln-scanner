@@ -112,4 +112,4 @@ This tool is for **educational purposes only**. Only scan web applications you o
 
 **Aditya Halbe** — Cloud & DevSecOps Engineer  
 CEH Certified  
-[GitHub](https://github.com/halbeadi) · [LinkedIn](https://linkedin.com/in/halbeadi)
+[GitHub](https://github.com/halbeadi) · [LinkedIn](https://www.linkedin.com/in/aditya-halbe)
