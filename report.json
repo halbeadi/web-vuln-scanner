@@ -38,6 +38,11 @@
     },
     {
       "type": "Sensitive File/Path Exposed",
+      "severity": "HIGH",
+      "detail": "http://localhost:8080/phpinfo.php returned HTTP 200"
+    },
+    {
+      "type": "Sensitive File/Path Exposed",
       "severity": "MEDIUM",
       "detail": "http://localhost:8080/server-status returned HTTP 403"
     },
@@ -45,6 +50,71 @@
       "type": "Sensitive File/Path Exposed",
       "severity": "MEDIUM",
       "detail": "http://localhost:8080/.htaccess returned HTTP 403"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload ''' triggered SQL error on http://localhost:8080/vulnerabilities/brute/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '' OR 1=1--' triggered SQL error on http://localhost:8080/vulnerabilities/brute/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '' AND 1=2--' triggered SQL error on http://localhost:8080/vulnerabilities/brute/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '1' ORDER BY 1--' triggered SQL error on http://localhost:8080/vulnerabilities/brute/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '1' ORDER BY 2--' triggered SQL error on http://localhost:8080/vulnerabilities/brute/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload ''' triggered SQL error on http://localhost:8080/vulnerabilities/sqli/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '' OR 1=1--' triggered SQL error on http://localhost:8080/vulnerabilities/sqli/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '' AND 1=2--' triggered SQL error on http://localhost:8080/vulnerabilities/sqli/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '1' ORDER BY 1--' triggered SQL error on http://localhost:8080/vulnerabilities/sqli/"
+    },
+    {
+      "type": "SQL Injection",
+      "severity": "HIGH",
+      "detail": "Payload '1' ORDER BY 2--' triggered SQL error on http://localhost:8080/vulnerabilities/sqli/"
+    },
+    {
+      "type": "Reflected XSS",
+      "severity": "HIGH",
+      "detail": "Payload reflected on http://localhost:8080/vulnerabilities/xss_r/ via input 'name'"
+    },
+    {
+      "type": "Reflected XSS",
+      "severity": "HIGH",
+      "detail": "Payload reflected on http://localhost:8080/vulnerabilities/xss_s/ via input 'txtName'"
+    },
+    {
+      "type": "Reflected XSS",
+      "severity": "HIGH",
+      "detail": "Payload reflected on http://localhost:8080/vulnerabilities/csp/ via input 'include'"
     }
   ]
 }
