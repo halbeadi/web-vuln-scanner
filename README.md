@@ -2,6 +2,12 @@ A Python-based web vulnerability scanner that automatically detects common secur
 
 ---
 
+## 📊 Report Preview
+
+![Scan Report](docs/screenshot.png)
+
+---
+
 ## 🚀 What It Does
 
 This tool crawls a target web application and tests for:
