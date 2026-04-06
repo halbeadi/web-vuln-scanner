@@ -1,3 +1,5 @@
+# 🔍 Web Vulnerability Scanner
+
 A Python-based web vulnerability scanner that automatically detects common security issues in web applications — built from scratch as a hands-on DevSecOps portfolio project.
 
 ---
