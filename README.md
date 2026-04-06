@@ -4,7 +4,7 @@ A Python-based web vulnerability scanner that automatically detects common secur
 
 ## 📊 Report Preview
 
-![Scan Report](docs/screenshot.png)
+![Scan Report](docs/Report.jpg)
 
 ---
 
