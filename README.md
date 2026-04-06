@@ -100,10 +100,9 @@ python main.py --url http://localhost:8080 --dvwa --max-pages 20
 ```
 
 **Results against DVWA:**
-- 10 SQL Injection findings
-- 3 Reflected XSS findings
-- 1 Sensitive file exposure (phpinfo.php)
-- 9 passive findings (headers, server info)
+- 14 HIGH severity findings (SQLi + XSS + sensitive files)
+- 8 MEDIUM severity findings (missing security headers)
+- 1 LOW severity finding (server version disclosure)
 - **23 total issues detected**
 
 ---
